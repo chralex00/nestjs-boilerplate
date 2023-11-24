@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  nestjs-boilerplate:
+    container_name: ${DOCKER_CONTAINER_NAME}
+    image: ${DOCKER_IMAGE_NAME}
+    env_file:
+      - .env
+    ports:
+      - ${DOCKER_PORT}:${LISTENING_PORT}
+    restart: always

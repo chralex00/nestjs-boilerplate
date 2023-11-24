@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.husky/
+docs/
+.dockerignore
+docker-compose.yml
+Dockerfile
+npm-debug.log
+env_example
+jest.config.js
+README.md

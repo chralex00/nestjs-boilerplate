@@ -1,0 +1,27 @@
+{
+	"info": {
+		"_postman_id": "893df95c-cdba-4205-935e-98752a66d232",
+		"name": "nestjs-boilerplate",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "10313594"
+	},
+	"item": [
+		{
+			"name": "Healthcheck",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/healthcheck",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"healthcheck"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

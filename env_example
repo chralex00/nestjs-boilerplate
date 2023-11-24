@@ -1,0 +1,7 @@
+# listening port
+LISTENING_PORT=3001
+
+# for docker
+DOCKER_CONTAINER_NAME=nestjs-boilerplate
+DOCKER_IMAGE_NAME=nestjs-boilerplate
+DOCKER_PORT=8081
