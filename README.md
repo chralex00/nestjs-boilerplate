@@ -98,7 +98,7 @@ npm run format
 ## Running the dockerized service
 Build the docker image with the following command:
 ```bash
-docker build -t luxottica-order-processor .
+docker build -t nestjs-boilerplate .
 # or
 make docker-build
 ```
@@ -120,7 +120,7 @@ make docker-down
 ## Inspect the dockerized service
 See container logs:
 ```bash
-docker-compose logs -f luxottica-order-processor --tail=50
+docker-compose logs -f nestjs-boilerplate --tail=50
 # or
 make docker-logs
 ```
